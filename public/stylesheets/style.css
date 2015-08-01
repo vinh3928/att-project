@@ -1,8 +1,48 @@
+html {
+  background: white;
+  background: -webkit-linear-gradient(#3c566f, #5a81a8);
+  background:    -moz-linear-gradient(#3c566f, #5a81a8);
+  background:         linear-gradient(#3c566f, #5a81a8);
+  height: vh;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.daytimes img {
+  max-width: calc(100%/3);
+  float: left;
+  width: 20%;
+  margin: 0 6.5%;
+}
+
+
+
+.player {
+  clear: both;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  width: 300px;
+  padding: 10px;
+  padding-right: 50px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.player i {
+  font-size: 50px;
+  padding-left: 50px;
+  color: white;
+}
+
+.logo {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+  padding-top: 2%;  
 }
